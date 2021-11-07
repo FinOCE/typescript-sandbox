@@ -13,7 +13,7 @@ export default class Runtime {
         const photo = await client.generatePhoto(
             [145.683948, -16.783875, 145.698514, -16.773644], // Coordinates to photograph
             [2020, 11, 14], // Photograph date
-            [512, 512] // Resolution of the image
+            [512, 375] // Resolution of the image
         )
 
         const {json, png, unix} = photo
